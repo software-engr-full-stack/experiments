@@ -33,3 +33,29 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/app/frontend/default/node_modules
+/app/frontend/default/.pnp
+/app/frontend/default.pnp.js
+
+# testing
+/app/frontend/default/coverage
+
+# production
+/app/frontend/default/build
+
+# misc
+/app/frontend/default.DS_Store
+/app/frontend/default.env.local
+/app/frontend/default.env.development.local
+/app/frontend/default.env.test.local
+/app/frontend/default.env.production.local
+
+/app/frontend/defaultnpm-debug.log*
+/app/frontend/defaultyarn-debug.log*
+/app/frontend/defaultyarn-error.log*
+
+/public/build
